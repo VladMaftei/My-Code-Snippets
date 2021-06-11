@@ -1,0 +1,104 @@
+HTML
+
+<section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+            <div class="container px-5 top-buffer">
+                <div class="col-lg-12 mx-auto text-center">
+                    <h1>Frequently Asked Questions</h1>
+                </div>
+
+                <div class="panel-group mt-5" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                      <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                            How do I know which plan is right for me?
+                        </a>
+                      </h3>
+                    </div>
+                    <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                      <div class="panel-body px-3 mb-4">
+                        <p>SMQ offers you powerful tools to grow your lists, increase conversions, and optimize your audience engagement. The plan you choose will depend on your company size and your goals. Our marketing advisors are ready to help you choose the plan best suited to your company's needs. Give us a call!</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                      <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            How can I let subscribers choose their message frequency?</a>
+                      </h3>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                      <div class="panel-body px-3 mb-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis mauris id tortor vulputate condimentum vel cursus ante. Aliquam et ex hendrerit, viverra lectus ullamcorper, eleifend massa. Praesent sapien orci, eleifend ut quam tempus, eleifend condimentum purus. Sed quis ornare ante, imperdiet imperdiet nisi. Aenean dapibus arcu eu molestie gravida. Maecenas vel erat et metus cursus posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae consequat metus. Duis id metus maximus, mollis nisi eu, tempus tellus. Suspendisse non pellentesque nunc. Aliquam imperdiet est venenatis dui dapibus bibendum. Ut a felis mattis, aliquet nisl id, facilisis nisi. Fusce vel ornare metus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                      <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                            Does SMQ offer a survey feature?
+                        </a>
+                      </h3>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                      <div class="panel-body px-3 mb-4">
+                        <p>Morbi aliquam ante eget vulputate feugiat. Quisque efficitur nulla enim, vitae sollicitudin lacus auctor ut. Nunc dapibus, tortor ac bibendum aliquam, enim enim placerat nunc, vel convallis metus diam nec nulla. Integer facilisis purus at libero tristique, vitae iaculis sem sagittis. Pellentesque in rhoncus mauris, at suscipit orci. Suspendisse fermentum leo nisi, quis convallis quam dictum ac. Quisque ornare leo nec orci consectetur, id cursus lacus varius. Ut elementum eget ipsum vitae sodales. Suspendisse sapien nisi, laoreet non ornare ut, auctor non nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Donec vitae sem dignissim, commodo felis a, vestibulum sapien.</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="panel panel-default">
+                    <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                      <h3 class="panel-title">
+                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                            Can I create and send HTML messages?
+                        </a>
+                      </h3>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                      <div class="panel-body px-3 mb-4">
+                        <p>Mauris laoreet nunc viverra massa elementum, ac suscipit odio venenatis. Nullam consectetur eu eros sed varius. Vestibulum mattis magna eget nulla facilisis dapibus. Phasellus a eros elit. Fusce venenatis, est eu maximus dignissim, massa lorem pulvinar neque, ac vestibulum velit ipsum non orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a rutrum orci. Praesent tempor nulla arcu, in ullamcorper arcu faucibus eu. Curabitur ac condimentum dui.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </section>
+
+
+CSS
+
+/* !!!!!!!!!  FAQ !!!!!!!! */
+
+.accordion-section .panel-default {
+    border: 1px solid black;
+    background: var(--main-bg-color);
+    padding: 0;
+    margin-bottom: 20px;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: -1.3rem;
+    color: var(--main-text-color);
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 2rem;
+    content: "\f106";
+    color: var(--main-text-color);
+    float: right;
+    margin-top: -0.4rem;
+    margin-right: 1rem;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
