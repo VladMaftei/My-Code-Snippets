@@ -1,0 +1,120 @@
+<section id="pricing">
+            <div class="container-fluid px-5 top-buffer gray">
+                <div class="row">
+                    <div class="col-lg-12 mx-auto py-5 text-center">
+                        <h1>Choose the right plan for you!</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container p-3">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
+                                <div class="card-orange h-100 py-2">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-md-12 col-sm-12 card-free-icon"><i class="fas fa-award fa-5x"></i></div>
+                                            <div class="col-lg-9 col-md-12 col-sm-12 free-buffer"><h1>Our Free Plan</h1> </div>
+                                        </div>
+                                        <h4>Perfect for when you're just starting out!</h4>
+                                        <div class="row align-items-center mb-1">
+                                            <div class="col-lg-4 col-md-6 col-sm-12 text-left pl-5 mobile-center">
+                                                <i class="fas white fa-check"></i>&nbsp;&nbsp;<strong>500 emails /
+                                                    day</strong><br>
+                                                <i class="fas white fa-check"></i>&nbsp;&nbsp;<strong>1 sending domain</strong><br>
+                                                <i class="fas white fa-check"></i>&nbsp;&nbsp;<strong>2 subscriber lists</strong><br>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-sm-12 text-center white mobile-center" >
+                                                    <h2>$0<span class="h4"> / month</span></h2>
+                                            </div>
+                                            <div class="col-lg-4 col-md-12 col-sm-12 text-right mobile-center">
+                                                <button class="button-solid-white">Sign Up For Free</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container p-3">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-md-12 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="card1-icon"><i class="fas fa-award fa-5x"></i></div>
+                                        <br>
+                                        <h4>Silver</h4>
+                                        <small class="text-muted">When you need a little extra</small>
+                                        <br><br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;<strong>10,000 emails</strong> /
+                                        month<br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;1 sending domain<br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;2 subscriber lists<br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;1000 subscribers
+                                        <br><br>
+                                        <span style="text-align: center;">
+                                            <h2>$5<span class="h4"> / month</span></h2>
+                                        </span>
+                                        <br>
+                                        <div class="d-grid text-center">
+                                            <button class="button-solid">Sign Up</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-12 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="card2-icon"><i class="fas fa-award fa-5x"></i></div>
+                                        <br>
+                                        <h4>Gold</h4>
+                                        <small class="text-muted">More features for your business</small>
+                                        <br><br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;<strong>50,000 emails</strong> /
+                                        month<br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;5 sending domains<br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;5 subscriber lists<br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;5000 subscribers
+                                        <br><br>
+                                        <span style="text-align: center;">
+                                            <h2>$19<span class="h4"> / month</span></h2>
+                                        </span>
+                                        <br>
+                                        <div class="d-grid text-center">
+                                            <button class="button-solid">Sign Up</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-12 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="card3-icon"><i class="far fa-gem fa-5x"></i></div>
+                                        <br>
+                                        <h4>Diamond</h4>
+                                        <small class="text-muted">Our powerful enterprise solution</small>
+                                        <br><br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;<strong>50,000 emails</strong> /
+                                        month<br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;10 sending domains<br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;10 subscriber lists<br>
+                                        <i class="fas orange fa-check"></i>&nbsp;&nbsp;20,000 subscribers
+                                        <br><br>
+                                        <span style="text-align: center;">
+                                            <h2>$75<span class="h4"> / month</span></h2>
+                                        </span>
+                                        <br>
+                                        <div class="d-grid text-center">
+                                            <button class="button-solid">Sign Up</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
